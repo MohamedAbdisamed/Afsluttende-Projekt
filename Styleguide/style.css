@@ -225,3 +225,7 @@ section article {
   border: 1vmin solid #ECECEC;
   background-color: #ECECEC;
   color: #262525; }
+
+#Ikoner {
+  display: flex;
+  flex-direction: column;}
