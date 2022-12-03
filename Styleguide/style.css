@@ -67,3 +67,18 @@ section {
 section article {
   width: 160vmin;
   margin-left: 10vmin; }
+
+#Logoer {
+  display: flex;
+  flex-direction: column; }
+
+#Logoer .logo {
+  display: flex;
+  flex-wrap: wrap; }
+
+#Logoer .logo img {
+  height: 40vmin;
+  background-color: #0B2A46;;
+  padding: 3vmin;
+  margin: 2vmin;
+  border-radius: 5vmin; }
