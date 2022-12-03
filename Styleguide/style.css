@@ -94,6 +94,18 @@ section article {
   display: flex;
   flex-direction: row;}
 
+.green-color {
+  display: flex;
+  flex-direction: row;}
+
+.light-color {
+  display: flex;
+  flex-direction: row;}
+
+.dark-color {
+  display: flex;
+  flex-direction: row;}
+
 .dark-blue {
   width: 30vmin;
   height: 25vmin;
@@ -123,3 +135,93 @@ section article {
   border: 1vmin solid #A9D4ED;
   background-color: #A9D4ED;
   color: #efefef; }
+
+.dark-green {
+  width: 30vmin;
+  height: 25vmin;
+  margin: 0.5vmin;
+  padding: 0.5vmin;
+  border-radius: 1vmin;
+  border: 1vmin solid #4D9E3D;
+  background-color: #4D9E3D;
+  color: #efefef; }
+
+.green {
+  width: 30vmin;
+  height: 25vmin;
+  margin: 0.5vmin;
+  padding: 0.5vmin;
+  border-radius: 1vmin;
+  border: 1vmin solid #5EBE4B;
+  background-color: #5EBE4B;
+  color: #efefef; }
+
+.light-green {
+  width: 30vmin;
+  height: 25vmin;
+  margin: 0.5vmin;
+  padding: 0.5vmin;
+  border-radius: 1vmin;
+  border: 1vmin solid #6CDE56;
+  background-color: #6CDE56;
+  color: #efefef; }
+
+.black {
+  width: 30vmin;
+  height: 25vmin;
+  margin: 0.5vmin;
+  padding: 0.5vmin;
+  border-radius: 1vmin;
+  border: 1vmin solid #262525;
+  background-color: #262525;
+  color: #efefef; }
+
+.dark-grey{
+  width: 30vmin;
+  height: 25vmin;
+  margin: 0.5vmin;
+  padding: 0.5vmin;
+  border-radius: 1vmin;
+  border: 1vmin solid #3B3B3B;
+  background-color: #3B3B3B;
+  color: #efefef; }
+
+.grey {
+  width: 30vmin;
+  height: 25vmin;
+  margin: 0.5vmin;
+  padding: 0.5vmin;
+  border-radius: 1vmin;
+  border: 1vmin solid #3B3B3B;
+  background-color: #3B3B3B;
+  color: #efefef; }
+
+.light-grey {
+  width: 30vmin;
+  height: 25vmin;
+  margin: 0.5vmin;
+  padding: 0.5vmin;
+  border-radius: 1vmin;
+  border: 1vmin solid #DCDCDC;
+  background-color: #DCDCDC;
+  color: #262525; }
+
+.off-white{
+  width: 30vmin;
+  height: 25vmin;
+  margin: 0.5vmin;
+  padding: 0.5vmin;
+  border-radius: 1vmin;
+  border: 1vmin solid #E6E6E6;
+  background-color: #E6E6E6;
+  color: #262525; }
+
+.white {
+  width: 30vmin;
+  height: 25vmin;
+  margin: 0.5vmin;
+  padding: 0.5vmin;
+  border-radius: 1vmin;
+  border: 1vmin solid #ECECEC;
+  background-color: #ECECEC;
+  color: #262525; }
