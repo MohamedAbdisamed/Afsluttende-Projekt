@@ -77,11 +77,11 @@ section article {
   flex-wrap: wrap; }
 
 #Logoer .logo img {
-  height: 40vmin;
+  height: 25vmin;
   background-color: #0B2A46;
   padding: 3vmin;
   margin: 2vmin;
-  border-radius: 5vmin; }
+  border-radius: 1vmin; }
 
 #Farver {
   display: flex;
@@ -229,3 +229,29 @@ section article {
 #Ikoner {
   display: flex;
   flex-direction: column;}
+
+button {
+  width: 20vmin;
+  height: 8vmin;
+}
+
+.ikke-aktiv {
+  text-align: center;
+  justify-content: center;
+  border: 0.5vmin solid #0B2A46;
+  border-radius: 0.5vmin;
+  background-color: #0B2A46;
+  color: #ECECEC;
+  font-size: 1.5vmin;
+}
+
+.aktiv {
+  text-align: center;
+  justify-content: center;
+  border: 0.5vmin solid #DCDCDC;
+  border-radius: 0.5vmin;
+  background-color: #DCDCDC;
+  color: #0B2A46;
+  font-size: 1.5vmin;
+}
+
