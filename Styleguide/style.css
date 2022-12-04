@@ -270,6 +270,27 @@ button {
   padding: 1vmin;
 }
 
+.illustration-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gallery-illustration img {
+  width: 25vmin;
+  height: 25vmin;
+  padding: 1vmin;
+}
+
+.gallery-illustration-wide img {
+  width: 25vmin;
+  padding: 1vmin;
+}
+
+.gallery-illustration-big img {
+  width: 40vmin;
+  padding: 1vmin;
+}
 Sæt ind her mohamed
 
 .kontakt-form {
