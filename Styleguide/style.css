@@ -270,4 +270,34 @@ button {
   padding: 1vmin;
 }
 
+Sæt ind her mohamed
 
+.kontakt-form {
+  width: 64vmin;
+}
+
+.Besked {
+  width: 62vmin;
+  height: 20vmin;
+  background-color: #ECECEC;
+  border: #C1C1C1 solid 0.5vmin;
+  border-radius: 0.5vmin;
+  color: #C1C1C1;
+  margin: 1vmin;
+  padding-left: 0.5vmin;
+}
+
+.kontakt-knap {
+  text-align: center;
+}
+
+.send {
+  width: 35vmin;
+  text-align: center;
+  justify-content: center;
+  border: 0.5vmin solid #0B2A46;
+  border-radius: 0.5vmin;
+  background-color: #0B2A46;
+  color: #ECECEC;
+  font-size: 1.5vmin;
+}
