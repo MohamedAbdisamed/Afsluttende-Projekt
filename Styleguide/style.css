@@ -301,3 +301,38 @@ Sæt ind her mohamed
   color: #ECECEC;
   font-size: 1.5vmin;
 }
+
+.topnav {
+  overflow: hidden;
+  background-color: #0B2A46;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5vmin 3vmin;
+  text-decoration: none;
+  font-size: 2.5vmin;
+}
+
+.topnav a:hover {
+  background-color: #DCDCDC;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #3371A1;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.nav-logo {
+  padding: 2.5vmin 3vmin;
+}
+.profil {
+  width: 3vmin;
+}
