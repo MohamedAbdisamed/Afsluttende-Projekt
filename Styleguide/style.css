@@ -10,6 +10,9 @@
     font-size: 4vmin; }
   * h3 {
     font-size: 3vmin; }
+  * label {
+    font-size: 2.5vmin;
+  }
   * body {
     text-align: left;
     color: #212529; 
@@ -193,8 +196,8 @@ section article {
   margin: 0.5vmin;
   padding: 0.5vmin;
   border-radius: 1vmin;
-  border: 1vmin solid #3B3B3B;
-  background-color: #3B3B3B;
+  border: 1vmin solid #C1C1C1;
+  background-color: #C1C1C1;
   color: #efefef; }
 
 .light-grey {
@@ -266,3 +269,5 @@ button {
   width: 30vmin;
   padding: 1vmin;
 }
+
+
