@@ -1,9 +1,9 @@
 @charset "UTF-8";
 * {
   box-sizing: border-box;
-  font-family: Verdana, sans-serif; }
+  font-family: lato, sans-serif; }
   * p {
-    font-size: 2.3vmin; }
+    font-size: 2.5vmin; }
   * h1 {
     font-size: 6vmin; }
   * h2 {
@@ -254,4 +254,15 @@ button {
   background-color: #ECECEC;
   color: #0B2A46;
   font-size: 1.5vmin;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gallery-img {
+  width: 30vmin;
+  padding: 1vmin;
 }
