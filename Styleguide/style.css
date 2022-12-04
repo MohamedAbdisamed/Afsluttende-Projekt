@@ -259,6 +259,8 @@ button {
   font-size: 1.5vmin;
 }
 
+Indsæt boks CSS her
+
 .gallery {
   display: flex;
   flex-direction: row;
@@ -291,7 +293,7 @@ button {
   width: 40vmin;
   padding: 1vmin;
 }
-Sæt ind her mohamed
+Sæt form ind her mohamed
 
 .kontakt-form {
   width: 64vmin;
