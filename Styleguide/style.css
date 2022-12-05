@@ -293,6 +293,10 @@ Indsæt boks CSS her
   width: 40vmin;
   padding: 1vmin;
 }
+
+video {
+  width: 160vmin;
+}
 Sæt form ind her mohamed
 
 .kontakt-form {
