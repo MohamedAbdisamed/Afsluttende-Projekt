@@ -259,7 +259,35 @@ button {
   font-size: 1.5vmin;
 }
 
-Indsæt boks CSS her
+#Bokse {
+  background-color: #0B2A46;
+  color: #ECECEC;
+  padding-left: 1vmin;
+  padding-bottom: 1vmin;
+  margin: 1vmin;
+  border-radius: 1vmin;
+}
+.boks {
+  display: flex;
+}
+
+.outline-boks {
+  padding: 1vmin;
+}
+
+.boks-img  {
+  width: 50vmin;
+  height: 30vmin;
+}
+
+.inside-boks {
+  border: #ECECEC solid 1vmin;
+  background-color: #ECECEC;
+  color: #0B2A46;
+  width: 50vmin;
+  height: 20vmin;
+  padding: 0vmin;
+}
 
 .gallery {
   display: flex;
@@ -298,7 +326,117 @@ Indsæt boks CSS her
 video {
   width: 160vmin;
 }
-Sæt form ind her mohamed
+Form
+.form {
+  width: 64vmin;
+}
+
+.to-boks {
+  display: flex;
+  flex: row;
+}
+
+.kort-boks {
+  width: 30vmin;
+  height: 8vmin;
+  background-color: #ECECEC;
+  border: #C1C1C1 solid 0.5vmin;
+  border-radius: 0.5vmin;
+  color: #C1C1C1;
+  margin: 1vmin;
+  padding-left: 0.5vmin;
+}
+
+.check-boks {
+  width: 30vmin;
+  height: 8vmin;
+  background-color: #ECECEC;
+  border: #C1C1C1 solid 0.5vmin;
+  border-radius: 0.5vmin;
+  color: #0B2A46;
+  margin: 1vmin;
+  padding-left: 0.5vmin;
+}
+
+.form-boks {
+  width: 62vmin;
+  height: 8vmin;
+  background-color: #ECECEC;
+  border: #C1C1C1 solid 0.5vmin;
+  border-radius: 0.5vmin;
+  color: #C1C1C1;
+  margin: 1vmin;
+  padding-left: 0.5vmin;
+}
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding-top: 2.5vmin;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 1vmin;
+  width: 1vmin;
+}
+
+.checkmark {
+  position: absolute;
+  top: 2vmin;
+  right: 1vmin;
+  height: 3.5vmin;
+  width: 3.5vmin;
+  background-color: #ECECEC;
+  border: #0B2A46 solid 0.5vmin;
+  border-radius: 0.5vmin;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #C1C1C1;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #0B2A46;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 0.6vmin;
+  width: 0.8vmin;
+  height: 1.8vmin;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.form-knap {
+  text-align: center;
+}
+
+.opret {
+  width: 35vmin;
+  text-align: center;
+  justify-content: center;
+  border: 0.5vmin solid #0B2A46;
+  border-radius: 0.5vmin;
+  background-color: #0B2A46;
+  color: #ECECEC;
+  font-size: 1.5vmin;
+}
 
 .kontakt-form {
   width: 64vmin;
