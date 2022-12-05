@@ -24,7 +24,7 @@ header {
   text-align: left;
   font-size: 10vmin;
   color: #ECECEC;
-  width: 168vmin;
+  width: 180vmin;
   left: 30vmin;
   top: 0;
   position: absolute; }
@@ -334,7 +334,7 @@ Sæt form ind her mohamed
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 5vmin 3vmin;
+  padding: 6vmin 3vmin;
   text-decoration: none;
   font-size: 2.5vmin;
 }
@@ -358,4 +358,34 @@ Sæt form ind her mohamed
 }
 .profil {
   width: 3vmin;
+}
+
+.header {
+  width: 160vmin;
+  position: relative;
+}
+
+.header img {
+  width: 160vmin;
+  height: 80vmin;
+}
+
+.header-indhold {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: #ECECEC;
+}
+
+.header-img {
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  transform: translate(-50%, -40%);
+}
+
+.header-img img {
+  width: 80vmin;
+  height: 70vmin;
 }
