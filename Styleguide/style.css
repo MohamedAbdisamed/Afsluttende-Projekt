@@ -438,6 +438,10 @@ Form
   font-size: 1.5vmin;
 }
 
+.form {
+  width: 64vmin;
+}
+
 .kontakt-form {
   width: 64vmin;
 }
